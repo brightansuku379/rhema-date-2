@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Rhema ❤️</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="hearts"></div>
+
+<div class="card">
+
+    <img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" class="cat">
+
+    <h1>Hi Rhema 💖</h1>
+
+    <h2>Will you go on a date with me? 🌹</h2>
+
+    <div class="buttons">
+        <button id="yes">YES 💕</button>
+        <button id="no">NO 😭</button>
+    </div>
+
+    <div id="dateSection" class="hidden">
+        <h3>When are you free? 📅</h3>
+
+        <input type="date" id="date">
+
+        <br><br>
+
+        <input type="time" id="time">
+
+        <br><br>
+
+        <button id="confirm">Confirm ❤️</button>
+    </div>
+
+    <div id="finalMessage" class="hidden">
+        <h1>YAYYYY!!! 🎉</h1>
+
+        <p>
+            Dear Rhema ❤️<br><br>
+
+            Thank you for saying YES! 💕<br>
+            I can't wait to spend time with you.<br><br>
+
+            Forever yours,<br>
+            Bright 🌹
+        </p>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
